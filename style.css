@@ -115,21 +115,23 @@ nav img {
 
 
 
-@media screen and (max-width: 700px) {
+
+@media screen and (max-width: 900px)  {
+
 
     .main {
         background-image: url("assets/images/bg.jpeg");
         background-position: center center;
-        background-size: max(1000px, 100vw);
+        background-size: max(1250px, 100vw);
         background-repeat: no-repeat;
-        height: 90vh;
+        height: 80vh;
         position: relative;
     }
 
     .main .box {
         backdrop-filter: brightness(50%);
         position: absolute;
-        height: 90vh;
+        height: 80vh;
         width: 100%;
         background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.8) 100%);
     }
